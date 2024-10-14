@@ -39,7 +39,7 @@ A dynamic blog application built with Node.js, Express, and EJS, allowing users 
 3. Start the server:
 
    ```bash
-   npm start
+   node /index.js
 
 4. Open your browser and go to http://localhost:8080 to view the application.
 
