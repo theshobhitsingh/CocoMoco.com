@@ -56,8 +56,8 @@ A dynamic blog application built with Node.js, Express, and EJS, allowing users 
 - **DELETE /posts/:id** - Handle deleting a post
 
 ## File Structure
-/public
-/views
+/public <br>
+/views <br>
   ├── edit.ejs <br>
   ├── index.ejs <br>
   ├── new.ejs <br>
