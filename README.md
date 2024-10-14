@@ -53,5 +53,13 @@ A simple blog application built with Node.js, Express, and EJS. Users can create
 - **PATCH /posts/:id** - Handle updating a post
 - **DELETE /posts/:id** - Handle deleting a post
 
+## File Structure
+/public
+/views
+  ├── edit.ejs
+  ├── index.ejs
+  ├── new.ejs
+  └── show.ejs
+app.js
 
 
