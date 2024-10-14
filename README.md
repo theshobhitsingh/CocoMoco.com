@@ -1,6 +1,6 @@
 # CocoMoco Blog Application
 
-A dynamic Blog application built with Node.js, Express, and EJS. Users can create, view, edit, and delete posts.
+A dynamic blog application built with Node.js, Express, and EJS, allowing users to perform all CRUD operations: create, view, edit, and delete posts.
 
 ## Features
 
