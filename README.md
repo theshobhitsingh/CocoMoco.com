@@ -38,4 +38,20 @@ A simple blog application built with Node.js, Express, and EJS. Users can create
 3. Start the server:
 
    ```bash
+   npm start
+
+4. Open your browser and go to http://localhost:8080 to view the application.
+
+## Routes
+
+- **GET /** - Render the homepage displaying all posts
+- **GET /posts** - Render the homepage displaying all posts
+- **GET /posts/new** - Render the form to create a new post
+- **POST /posts** - Handle the creation of a new post
+- **GET /posts/:id** - Render a detailed view of a post
+- **GET /posts/:id/edit** - Render the edit form for a post
+- **PATCH /posts/:id** - Handle updating a post
+- **DELETE /posts/:id** - Handle deleting a post
+
+
 
