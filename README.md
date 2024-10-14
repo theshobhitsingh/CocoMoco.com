@@ -63,7 +63,7 @@ A dynamic blog application built with Node.js, Express, and EJS, allowing users 
   ├── index.ejs <br>
   ├── new.ejs <br>
   └── show.ejs <br>
-app.js
+index.js
 
 
 ## Contributing
