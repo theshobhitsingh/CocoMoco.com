@@ -31,3 +31,11 @@ A simple blog application built with Node.js, Express, and EJS. Users can create
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+2. Install dependencies:
+
+   ```bash
+   npm install
+3. Start the server:
+
+   ```bash
+
