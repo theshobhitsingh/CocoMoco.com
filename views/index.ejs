@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>𝗖𝗼𝗰𝗼𝗠𝗼𝗰𝗼.𝗰𝗼𝗺</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #1f1f1f;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+      .head {
+        text-align: center;
+        color: #ff0800;
+        margin-top: 20px;
+      }
+      .post {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+      .user {
+        color: #007bff;
+        margin-bottom: 5px;
+      }
+      .content {
+        color: #333;
+        line-height: 1.6;
+      }
+      .new-post {
+        display: inline-block;
+        text-align: center;
+        color: #fff;
+        background-color: #007bff;
+        border-radius: 4px;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+      .new-post:hover {
+        background-color: #0056b3;
+      }
+      .edit-post {
+        background-color: #ffc107;
+      }
+      .delete-post {
+        background-color: #dc3545;
+      }
+      .post-actions {
+        text-align: right;
+        margin-top: 10px;
+      }
+      button {
+        border: none;
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        opacity: 0.8;
+      }
+      .new {
+        margin-left: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="head">CocoMoco.com</h1>
+      <% posts.forEach(post => { %>
+      <div class="post">
+        <h3 class="user">@<%= post.username %></h3>
+        <p class="content"><%= post.content %></p>
+        <div class="post-actions">
+          <a href="http://localhost:8080/posts/<%= post.id  %>" class="new-post"
+            >Show details ➕</a
+          >
+          <a
+            href="http://localhost:8080/posts/<%= post.id  %>/edit"
+            class="new-post edit-post"
+            >Edit✂️</a
+          >
+          <form
+            method="POST"
+            action="/posts/<%=post.id%>?_method=DELETE"
+            style="display: inline"
+          >
+            <button class="delete-post">Delete</button>
+          </form>
+        </div>
+      </div>
+      <% }); %>
+      <a href="http://localhost:8080/posts/new" class="new new-post"
+        >New Post ➕</a
+      >
+    </div>
+  </body>
+</html>

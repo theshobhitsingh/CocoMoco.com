@@ -1,0 +1,19 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "REST App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Shobhit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "method-override": "^3.0.0",
+    "uuid": "^9.0.1"
+  }
+}
