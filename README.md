@@ -58,10 +58,10 @@ A dynamic blog application built with Node.js, Express, and EJS, allowing users 
 ## File Structure
 /public
 /views
-  ├── edit.ejs
-  ├── index.ejs
-  ├── new.ejs
-  └── show.ejs
+  ├── edit.ejs <br>
+  ├── index.ejs <br>
+  ├── new.ejs <br>
+  └── show.ejs <br>
 app.js
 
 
