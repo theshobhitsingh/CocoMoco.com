@@ -65,7 +65,7 @@ A dynamic blog application built with Node.js, Express, and EJS, allowing users 
 index.js
 
 ## Contributing
-Contributions are welcomed! Please feel free to submit a pull request or open an issue for any suggestions or improvements
+Contributions are welcomed! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
 ## Developer
 This project is built by me ***Shobhit Singh***
