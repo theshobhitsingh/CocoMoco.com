@@ -10,8 +10,8 @@ A dynamic blog application built with Node.js, Express, and EJS, allowing users 
 - Display posts with usernames and content
 
   Home Page <br> <img src= "https://github.com/theshobhitsingh/CocoMoco.com/blob/main/Images%20of%20Project/Home%20Page.png?raw=true"> <br>
-  Detailed Post <br> <img src = "https://github.com/theshobhitsingh/CocoMoco.com/blob/main/Images%20of%20Project/Edit%20Post.png?raw=true">  <br>
-  Edit Post <br> <img src = "https://github.com/theshobhitsingh/CocoMoco.com/blob/main/Images%20of%20Project/Detailed%20Post.png?raw=true"> 
+   Edit Post <br> <img src = "https://github.com/theshobhitsingh/CocoMoco.com/blob/main/Images%20of%20Project/Edit%20Post.png?raw=true">  <br>
+  Detailed Post <br> <img src = "https://github.com/theshobhitsingh/CocoMoco.com/blob/main/Images%20of%20Project/Detailed%20Post.png?raw=true"> 
 
 ## Technologies Used
 
