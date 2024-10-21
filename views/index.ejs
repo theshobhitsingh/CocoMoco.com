@@ -20,7 +20,7 @@
       }
       .head {
         text-align: center;
-        color: #ff0800;
+        color: #0056b3;
         margin-top: 20px;
       }
       .post {
@@ -42,7 +42,7 @@
         display: inline-block;
         text-align: center;
         color: #fff;
-        background-color: #007bff;
+        background-color: #1cea4c;
         border-radius: 4px;
         padding: 10px 20px;
         text-decoration: none;
@@ -87,7 +87,7 @@
         <p class="content"><%= post.content %></p>
         <div class="post-actions">
           <a href="http://localhost:8080/posts/<%= post.id  %>" class="new-post"
-            >Show details ➕</a
+            >Show details🕸️</a
           >
           <a
             href="http://localhost:8080/posts/<%= post.id  %>/edit"
@@ -99,13 +99,13 @@
             action="/posts/<%=post.id%>?_method=DELETE"
             style="display: inline"
           >
-            <button class="delete-post">Delete</button>
+            <button class="delete-post">Delete⚓</button>
           </form>
         </div>
       </div>
       <% }); %>
       <a href="http://localhost:8080/posts/new" class="new new-post"
-        >New Post ➕</a
+        >New Post🪶</a
       >
     </div>
   </body>

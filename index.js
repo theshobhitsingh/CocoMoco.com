@@ -15,18 +15,28 @@ app.use(express.static(path.join(__dirname, "public")));
 let posts = [
   {
     id: uuidv4(),
-    username: "User1",
-    content: "I ❤️ Coding",
+    username: "Adam",
+    content: "Hey! Let's Catch up for some Code and Coffee!",
   },
   {
     id: uuidv4(),
-    username: "User2",
-    content: "I 💚 Commerce",
+    username: "Bob",
+    content: "Yes! Why not?",
   },
   {
     id: uuidv4(),
-    username: "User3",
-    content: "I 💙 Arts",
+    username: "Casey",
+    content: "I will be joining you guys too!",
+  },
+  {
+    id: uuidv4(),
+    username: "Dan",
+    content: "I will stay Home and Study!",
+  },
+  {
+    id: uuidv4(),
+    username: "Eve",
+    content: "Me too!",
   },
 ];
 app.get("/", (req, res) => {
